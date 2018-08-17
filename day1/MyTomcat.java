@@ -1,5 +1,4 @@
 package day1;
-import java.sql.*;
 import java.net.*;
 import java.io.*;
 
