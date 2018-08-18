@@ -1,4 +1,3 @@
-package day2;
 import javax.servlet.*;
 import java.io.IOException;
 
@@ -23,10 +22,10 @@ public class Loginc implements Servlet{
 		arg1.setCharacterEncoding("GB2312");
 //		arg1.setContentType("text/html;charset=GB2312");
 		if(user.equals("aaa")&&password.equals("111")) {
-			arg1.getWriter().println("ª∂”≠");
+			arg1.getWriter().println("ª∂”≠,welcome");
 			
 		}else {
-			arg1.getWriter().println("—È÷§ ß∞‹");
+			arg1.getWriter().println("—È÷§ ß∞‹,sorry");
 		}
 	}
 }
